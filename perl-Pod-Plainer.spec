@@ -1,9 +1,9 @@
 %define upstream_name    Pod-Plainer
-%define upstream_version 1.02
+%define upstream_version 1.03
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    To convert POD to old-style plainer POD
 License:    GPL+ or Artistic
