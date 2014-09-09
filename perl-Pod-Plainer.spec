@@ -1,10 +1,10 @@
 %define modname	Pod-Plainer
-%define modver	1.03
+%define modver 1.04
 
 Summary:	To convert POD to old-style plainer POD
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	11
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
@@ -41,4 +41,3 @@ METHODS
 %doc README Changes
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
-
