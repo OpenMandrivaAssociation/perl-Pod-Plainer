@@ -3,12 +3,12 @@
 
 Summary:	To convert POD to old-style plainer POD
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	6
+Version:	%{modver}
+Release:	7
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Pod/%{modname}-%{modver}.tar.gz
+Url:		https://metacpan.org/dist/Pod-Plainer
+Source0:	https://cpan.metacpan.org/authors/id/R/RM/RMBARKER/Pod-Plainer-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Test::More)
